@@ -190,7 +190,7 @@ th {
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE,#888888)
+    background: linear-gradient(#FEFEFE, #888888)
 }
 
 .mapa p {
@@ -202,10 +202,12 @@ th {
     width: 940px;
     margin: 0 auto;
 }
+
 .diferenciales {
     padding: 3em 0;
     background-color: #888888;
 }
+
 .cotenidodiferenciales {
     width: 640px;
     margin: 0 auto;
@@ -224,6 +226,7 @@ th {
 .items:before {
     content: "★";
 }
+
 .items:first-child {
     font-weight: bold;
 }
@@ -231,7 +234,10 @@ th {
 .imgdiferenciales {
     width: 60%;
     transition: 400ms;
-    box-shadow: 10px 10px 30px 15px #000000};
+    box-shadow: 10px 10px 30px 15px #000000
+}
+
+;
 
 .imgdiferenciales:hover {
     opacity: 30%;
@@ -242,19 +248,22 @@ th {
     margin: 1em auto;
 }
 
-@media screen and (max-width:480px){
-
+@media screen and (max-width:480px) {
     h1 {
         text-align: center;
     }
+
     nav {
         position: static;
     }
-    .caja, .principal, .cotenidodiferenciales, .video, .mapacontenido{
-        width: 100%;
-    }
 
-    .listadiferenciales, .imgdiferenciales {
+    .caja,
+    .principal,
+    .cotenidodiferenciales,
+    .video,
+    .mapacontenido,
+    .imgdiferenciales,
+    .listadiferenciales {
         width: 100%;
     }
 }
